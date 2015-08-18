@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 import static org.fluentlenium.core.filter.FilterConstructor.*;
+import java.util.ArrayList;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
