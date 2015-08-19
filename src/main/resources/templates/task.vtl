@@ -1,7 +1,8 @@
-<h1>Success!</h1>
+#if ($task)
+  <h1>$task.getDescription()</h1>
+#else
+  <h1> Task not found </h1>
+#end
 
-Your task has been saved.
-<br>
-<!-- <a href ="/">Go Back</a><br> -->
 <a href="/tasks/new">Add another task</a><br>
 <a href="/tasks">View all tasks</a><br>
